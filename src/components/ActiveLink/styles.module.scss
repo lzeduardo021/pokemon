@@ -1,0 +1,16 @@
+.active{
+  position: relative;
+  height: 50px;
+  display: grid;
+  place-items: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    bottom: 0;
+    height: 1px;
+    border-bottom: 2px solid var(--grey-500);
+    color: purple;
+  }
+}

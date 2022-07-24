@@ -1,0 +1,11 @@
+.cardContainer{
+   flex-wrap: wrap;
+   display: flex;
+   gap: 30px;
+  .card{
+    width: 165px;
+    height: 236px;
+    border-radius: 8px;
+    border: 1px solid grey;
+  }
+}
